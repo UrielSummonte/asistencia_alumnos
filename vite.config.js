@@ -10,13 +10,13 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'Nombre de mi App',
-        short_name: 'MiApp',
-        description: 'Mi increíble aplicación en Vercel',
+        name: 'Asistencia Alumnos',
+        short_name: 'Asistencia',
+        description: 'App para registro de asistencia en Vercel',
         theme_color: '#ffffff',
         icons: [
           {
-            src: 'pwa-192x192.png', // Asegúrate de tener estas imágenes en tu carpeta /public
+            src: 'alumnos_png192', // Asegúrate de tener estas imágenes en tu carpeta /public
             sizes: '192x192',
             type: 'image/png'
           },
