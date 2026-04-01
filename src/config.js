@@ -1,0 +1,1 @@
+export const API_URL = 'https://script.google.com/macros/s/AKfycbx4zBX8JKeFeU9CR4MLSU5S3iL61ropruDEMf2KN3sPV4WAlweVbnxxVZAT4FpMrjv3uQ/exec'; // ← Pegá la URL de Apps Script
