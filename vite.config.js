@@ -16,14 +16,16 @@ export default defineConfig({
         theme_color: '#ffffff',
         icons: [
           {
-            src: 'alumnos_png192', // Asegúrate de tener estas imágenes en tu carpeta /public
-            sizes: '192x192',
-            type: 'image/png'
+            src: 'favicon.svg', // Asegúrate de tener estas imágenes en tu carpeta /public
+            sizes: 'any',
+            type: 'image/png',
+            purpose: 'any'
           },
           {
-            src: 'alumnos_png192',
+            src: 'alumnos_png512',
             sizes: '512x512',
-            type: 'image/png'
+            type: 'image/png',
+            purpose: 'maskable' // Esto hace que el icono se adapte a formas (círculo, cuadrado) en Android
           }
         ]
       }
