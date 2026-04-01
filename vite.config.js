@@ -21,7 +21,7 @@ export default defineConfig({
             type: 'image/png'
           },
           {
-            src: 'pwa-512x512.png',
+            src: 'alumnos_png192',
             sizes: '512x512',
             type: 'image/png'
           }
