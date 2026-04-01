@@ -18,11 +18,11 @@ export default defineConfig({
           {
             src: 'favicon.svg', // Asegúrate de tener estas imágenes en tu carpeta /public
             sizes: 'any',
-            type: 'image/png',
+            type: 'image/svg+xml',
             purpose: 'any'
           },
           {
-            src: 'alumnos_png512',
+            src: 'alumnos_png512.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'maskable' // Esto hace que el icono se adapte a formas (círculo, cuadrado) en Android
